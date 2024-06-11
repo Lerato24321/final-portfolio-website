@@ -11,9 +11,29 @@
 }
 */
 
+
+:root {
+    --primary-color: #F6F5F2;
+    --secondary-color: #FFEFEF; 
+}
+
+
+body {
+    background-color: var(--primary-color);
+}
+
 h1 {
     font-family: Freeman, sans-serif;
     margin-left: 130px;
     font-weight:bold;
     font-size: 60px;
 }
+
+
+
+
+.nav-color {
+ background-color: #FFEFEF;
+ color: rgb(24, 19, 19);
+}
+
