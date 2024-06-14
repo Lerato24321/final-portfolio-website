@@ -19,21 +19,78 @@
 
 
 body {
-    background-color: var(--primary-color);
+    background-color: #F6F2F5;
 }
 
 h1 {
     font-family: Freeman, sans-serif;
-    margin-left: 130px;
+    margin-left: -30px;
     font-weight:bold;
-    font-size: 60px;
+    font-size: 70px;
+    display: inline;
+    color: #F3D0D7;
+}
+
+h4 { 
+    font-family: "Literata", serif;
+    margin-top: 170px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+p {
+    font-family: "Literata", serif;
+}
+
+.img-fluid {
+    margin-left: 80px;
+   margin-top: -100px;
+   
+}
+
+.nav-logo {
+    width: 40px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.intro-paragraph {
+    color: gray;
+}
+
+
+
+.nav-color {
+ background-color: rgba(243, 208, 215, 0.5);
+ color: rgb(24, 19, 19);
+}
+
+.name-title {
+    text-shadow: 2px 2px #da9aa7;
 }
 
 
 
 
-.nav-color {
- background-color: #FFEFEF;
- color: rgb(24, 19, 19);
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .img-fluid {
+    display: none;
+  }
+
+  .introductory-heading {
+    margin-left: -100px;
+  }
+
 }
 
