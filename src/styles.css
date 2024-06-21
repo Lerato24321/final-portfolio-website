@@ -23,7 +23,7 @@ body {
     background-color: var(--primary-color);
 }
 
-h1 {
+.name-title {
     font-family: Freeman, sans-serif;
     margin-left: -30px;
     font-weight:bold;
@@ -32,7 +32,7 @@ h1 {
     color: #F3D0D7;
 }
 
-h4 { 
+.introduction-header { 
     font-family: "Literata", serif;
     margin-top: 170px;
     margin-left: 30px;
@@ -40,7 +40,7 @@ h4 {
     color: var(--text-color);
 }
 
-p {
+.intro-paragraph {
     font-family: "Literata", serif;
     color: var(--text-color);
 }
@@ -110,9 +110,9 @@ p {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
-    h4 { 
+    .introduction-header { 
         font-size: 20px;
         
         margin-top: 65px;
@@ -162,6 +162,48 @@ p {
     margin: 14px;
    
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 912px) {
+
+  .personal-heading {
+    margin-top: -70px;
+  }
+  
+
+.personal-photo {
+  margin-top: -80px; 
+  margin-left: 10px;
+}
+
+
+.name-title {
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+.intro-paragraph {
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
 
 
 }
