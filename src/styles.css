@@ -15,11 +15,12 @@
 :root {
     --primary-color: #F6F5F2;
     --secondary-color: #FFEFEF; 
+    --text-color: #808080;
 }
 
 
 body {
-    background-color: #F6F2F5;
+    background-color: var(--primary-color);
 }
 
 h1 {
@@ -36,11 +37,12 @@ h4 {
     margin-top: 170px;
     margin-left: 30px;
     margin-bottom: 0px;
-    color: gray;
+    color: var(--text-color);
 }
 
 p {
     font-family: "Literata", serif;
+    color: var(--text-color);
 }
 
 .img-fluid {
@@ -55,9 +57,9 @@ p {
     border-radius: 50%;
 }
 
-.intro-paragraph {
-    color: gray;
-}
+
+
+
 
 
 
@@ -70,6 +72,28 @@ p {
     text-shadow: 2px 2px #da9aa7;
 }
 
+.btns {
+    margin-left: 30px;
+}
+
+
+
+.intro-button {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    box-shadow: 2px 2px #da9aa7;
+    color: gray;
+    width: 135px;
+    margin: 5px;
+}
+
+.intro-button:hover {
+    background-color: #da9aa7;
+    color: white;
+    padding: 10px;
+    box-shadow: 2px 2px #efdade;
+
+}
 
 
 
@@ -83,14 +107,63 @@ p {
 
 
 
-@media (max-width: 1200px) {
+
+
+
+@media (max-width: 768px) {
+
+    h4 { 
+        font-size: 20px;
+        
+        margin-top: 65px;
+        margin-left: -40px;
+    }
+
+
+
+
   .img-fluid {
     display: none;
   }
 
   .introductory-heading {
-    margin-left: -100px;
+    font-size: 35px;
+    margin-left: -80px;
+    
   }
 
+  .intro-surname {
+    margin-left: -30px;
+  }
+
+  .intro-paragraph {
+    margin-left: -3px;
+    margin-top: -5px;
+  }
+
+  
+
+  
+
+  .intro-button, p {
+    width: 150px;
+    margin: 14px;
+    display: block;
+    margin-left: -8px;
+    font-size: 13px;
+  }
+
+  .intro-button:hover {
+    background-color: #da9aa7;
+    box-shadow: 2px 2px #efdade;
+    color: #ffffff;
+    width: 150px;
+    display: block;
+    margin: 14px;
+   
 }
+
+
+}
+
 
