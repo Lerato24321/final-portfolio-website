@@ -11,89 +11,118 @@
 }
 */
 
-
 :root {
-    --primary-color: #F6F5F2;
-    --secondary-color: #FFEFEF; 
-    --text-color: #808080;
+  --primary-color: #f6f5f2;
+  --secondary-color: #ffefef;
+  --text-color: #808080;
 }
 
-
 body {
-    background-color: var(--primary-color);
+  background-color: #f6f2f5 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Freeman, sans-serif;
+}
+
+h2 {
+  color: pink;
+}
+
+.main-container,
+.second-container {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .name-title {
-    font-family: Freeman, sans-serif;
-    margin-left: -30px;
-    font-weight:bold;
-    font-size: 70px;
-    display: inline;
-    color: #F3D0D7;
+  margin-left: -30px;
+  font-weight: bold;
+  font-size: 70px;
+  display: inline;
+  color: #f3d0d7;
 }
 
-.introduction-header { 
-    font-family: "Literata", serif;
-    margin-top: 170px;
-    margin-left: 30px;
-    margin-bottom: 0px;
-    color: var(--text-color);
+.introduction-header {
+  font-family: "Literata", serif;
+  margin-top: 170px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  color: var(--text-color);
 }
 
 .intro-paragraph {
-    font-family: "Literata", serif;
-    color: var(--text-color);
+  font-family: "Literata", serif;
+  color: var(--text-color);
 }
 
 .img-fluid {
-    margin-left: 80px;
-   margin-top: -100px;
-   
+  margin-left: 80px;
+  margin-top: -100px;
 }
 
 .nav-logo {
-    width: 40px;
-    margin-top: 2px;
-    border-radius: 50%;
+  width: 40px;
+  margin-top: 2px;
+  border-radius: 50%;
 }
 
-
-
-
-
-
-
 .nav-color {
- background-color: rgba(243, 208, 215, 0.5);
- color: rgb(24, 19, 19);
+  background-color: rgba(243, 208, 215, 0.5);
+  color: rgb(24, 19, 19);
 }
 
 .name-title {
-    text-shadow: 2px 2px #da9aa7;
+  text-shadow: 2px 2px #da9aa7;
 }
 
 .btns {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-
-
 .intro-button {
-    background-color: var(--secondary-color);
-    padding: 10px;
-    box-shadow: 2px 2px #da9aa7;
-    color: gray;
-    width: 135px;
-    margin: 5px;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  box-shadow: 2px 2px #da9aa7;
+  color: gray;
+  width: 135px;
+  margin: 5px;
 }
 
 .intro-button:hover {
-    background-color: #da9aa7;
-    color: white;
-    padding: 10px;
-    box-shadow: 2px 2px #efdade;
-
+  background-color: #da9aa7;
+  color: white;
+  padding: 10px;
+  box-shadow: 2px 2px #efdade;
 }
+
+.first-weather-project {
+  margin-top: 20px;
+}
+
+.second-home-subheading {
+  font-weight: bold;
+  font-size: 50px;
+  color: #f3d0d7;
+  margin-left: 200px;
+}
+
+
+.weather-app-paragraph {
+  margin-left: 150px;
+}
+
+
+
+.weather-app-img {
+  margin-left: -10px;
+}
+
 
 
 
@@ -111,25 +140,20 @@ body {
 
 
 @media (max-width: 600px) {
+  .introduction-header {
+    font-size: 20px;
 
-    .introduction-header { 
-        font-size: 20px;
-        
-        margin-top: 65px;
-        margin-left: -40px;
-    }
+    margin-top: 65px;
+    margin-left: -40px;
+  }
 
-
-
-
-  .img-fluid {
+  .personal-photo {
     display: none;
   }
 
   .introductory-heading {
     font-size: 35px;
     margin-left: -80px;
-    
   }
 
   .intro-surname {
@@ -141,11 +165,8 @@ body {
     margin-top: -5px;
   }
 
-  
-
-  
-
-  .intro-button, p {
+  .intro-button,
+  p {
     width: 150px;
     margin: 14px;
     display: block;
@@ -160,11 +181,26 @@ body {
     width: 150px;
     display: block;
     margin: 14px;
-   
+  }
+}
+
+.second-home-description {
+  font-size: 30px;
 }
 
 
+
+.weather-app-paragraph {
+  margin-left: 30px;
 }
+
+.second-home-subheading {
+  margin-left: 30px;
+  margin-top: -50px;
+}
+
+
+
 
 
 
@@ -177,35 +213,33 @@ body {
 
 
 @media (min-width: 768px) and (max-width: 912px) {
-
   .personal-heading {
     margin-top: -70px;
   }
-  
 
-.personal-photo {
-  margin-top: -80px; 
-  margin-left: 10px;
+  .personal-photo {
+    margin-top: -80px;
+    margin-left: 10px;
+  }
+
+  .name-title {
+    margin-left: 20px;
+    font-size: 50px;
+  }
+
+  .intro-paragraph {
+    margin-left: 20px;
+  }
+
+
+.weather-app-img {
+  padding-top: 90px;
 }
 
 
-.name-title {
-  margin-left: 20px;
-  font-size: 50px;
-}
-
-.intro-paragraph {
-  margin-left: 20px;
-}
-
-
-
-
 
 
 
 
 
 }
-
-
