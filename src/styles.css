@@ -38,6 +38,10 @@ h2 {
   color: pink;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-container,
 .second-container ,
 .third-container,
@@ -112,11 +116,24 @@ h2 {
   margin: 5px;
 }
 
-.intro-button:hover {
+.intro-button:hover, .project-button-1:hover {
   background-color: #da9aa7;
   color: white;
   padding: 10px;
   box-shadow: 2px 2px #efdade;
+}
+
+
+
+.project-button-1 {
+   background-color: var(--secondary-color);
+  padding: 10px;
+  box-shadow: 2px 2px #da9aa7;
+  border: none;
+  color: gray;
+  border-radius: 4px;
+  width: 135px;
+  margin-left: 250px;
 }
 
 .first-weather-project {
@@ -223,6 +240,7 @@ h2 {
     display: block;
     margin: 14px;
   }
+  
 
 
 .second-home-description {
