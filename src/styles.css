@@ -50,8 +50,8 @@ a {
   overflow-x: hidden;
 }
 
-.to-do-app-paragraph, .weather-app-paragraph {
-  color: gray;
+.to-do-app-paragraph, .weather-app-paragraph, .about-me-paragraph {
+  color: rgb(128, 128, 128);
 }
 
 
@@ -62,13 +62,26 @@ a {
 }
 
 
-.name-title {
+.name-title, .name-title-2 {
   margin-left: -30px;
   font-weight: bold;
   font-size: 70px;
-  display: inline;
   color: #f3d0d7;
+  text-shadow: 2px 2px #da9aa7;
 }
+
+
+.name-title-2 {
+  padding-top: 150px;
+  margin-left: -30px;
+}
+
+.about-me-paragraph {
+  margin-right: 100px;
+  margin-left: -40px;
+}
+
+
 
 .introduction-header {
   font-family: "Literata", serif;
@@ -83,9 +96,16 @@ a {
   color: var(--text-color);
 }
 
-.personal-photo {
+.personal-photo, .personal-photo-2 {
   margin-left: 80px;
   margin-top: -100px;
+}
+
+
+.personal-photo-2 {
+     background-color: #da9aa7;
+     background-size: 75% 50%;
+     border-radius: 10% 30% 50% 70%;
 }
 
 .nav-logo {
@@ -99,9 +119,7 @@ a {
   color: rgb(24, 19, 19);
 }
 
-.name-title {
-  text-shadow: 2px 2px #da9aa7;
-}
+
 
 .btns {
   margin-left: 30px;
@@ -135,6 +153,12 @@ a {
   width: 135px;
   margin-left: 250px;
 }
+
+.about-button {
+  margin-left: 130px;
+}
+
+
 
 .first-weather-project {
   margin-top: 20px;
@@ -187,7 +211,7 @@ a {
 }
 
 .active {
-  color: rgb(154, 82, 154);
+  color: rgb(231, 130, 147);
 }
 
 
