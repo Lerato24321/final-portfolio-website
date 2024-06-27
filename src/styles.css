@@ -439,6 +439,31 @@ margin-left: 30px;
 }
 
 
+.personal-photo-2 {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+
+.about-first-column {
+  margin-top: -60px;
+}
+
+.name-title-2 {
+  font-size: 50px;
+ margin-left: -4px;
+}
+
+.about-me-paragraph, .about-button {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+
+
+
+
 
 
 
@@ -486,6 +511,28 @@ margin-left: 30px;
 
 }
 
+
+
+.about-first-column {
+  margin-top: -60px;
+  padding-left: 70px;
+}
+
+
+.name-title-2 {
+  font-size: 50px;
+ margin-left: -4px;
+}
+
+
+
+
+
+
+.about-me-paragraph, .about-button {
+  margin-left: 5px;
+  font-size: 15px;
+}
 
 
 }
