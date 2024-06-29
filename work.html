@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="The personal portfolio website of a front-end developer showcasing current and ongoing projects - Lerato Modise"
+      content="The 'About Page' on a personal portfolio website of a front-end developer showcasing current and ongoing projects - Lerato Modise"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -29,7 +29,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
-    <title>Portfolio Website - Lerato</title>
+    <title>Portfolio Website About Page - Lerato</title>
   </head>
 
   <body>
@@ -52,57 +52,29 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a
-              class="nav-link active"
+              class="nav-link text-muted"
               class="home-nav"
               aria-current="page"
-              href="#">Home</a
+              href="/">Home</a
             >
-            <a class="nav-link text-muted" href="/about.html">About</a>
-            <a class="nav-link text-muted" href="/work.html">Projects</a>
+            <a class="nav-link text-muted " href="/about.html">About</a>
+            <a class="nav-link active" href="#">Projects</a>
             <a class="nav-link text-muted" href="#">Contact me</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <div class="main-container">
+
+
+  <div class="main-container">
       <div class="row">
-        <div class="col-sm-6 introductory-heading">
-          <img
-            src="/images/headshot.png"
-            class="img-fluid personal-photo"
-            alt="photo of Lerato"
-          />
+        <div class="col-sm-12 introduction-header text-center">
+           <h2 class="work-header">This is a brief summary of all the projects I have that are currently active. <br class="d-none d-sm-inline">From a static weather website that collects and displays data all the way to a fully functional + responsive To-Do app and finally a static Apple AirPods landing page that is fully responsive. <br class="d-none d-sm-inline">Be sure to check all of them out! </h2>
+        
         </div>
 
-        <div class="col-sm-6 personal-heading">
-          <h4 class="introduction-header">🤍Hi, my name is</h4>
-          <h1 class="name-title">
-            Lerato <span class="intro-surname"> Modise</span>
-          </h1>
-          <p class="intro-paragraph">
-            A front-end developer based in South Africa.
-          </p>
-          <span class="btns">
-            <a href="/about.html">
-            <button type="button" class="btn intro-button btn-lg">
-              More info
-            </button>
-            </a>
-            <a href="">
-            <button type="button" class="btn intro-button btn-lg">
-              Projects
-            </button>
-            </a>
-          </span>
-        </div>
-
-      </div>
-    </div>
-
-
-
-    <div class="second-container">
+  <div class="second-container">
       <div class="row">
         <div class="col-sm-12 mt-5">
           <h1 class="second-home-description text-center mt-5">A collection of my active projects:</h1>
@@ -114,10 +86,10 @@
 
       
        
-        <div class="col-sm-6">
+        <div class="col-sm-6" id="weather-app">
           <h1 class=" second-home-subheading mt-5">The Weather App</h1>
           <p class="weather-app-paragraph">This is a weather app built with HTML5 for the basic structure of the page, CSS3 for the styling and JavaScript for functionality and API Integration. The app fetches and displays the weather data of the searched city from anywhere in the world, including the current weather data and for the next 4 days.</p>
-          <a href="/work.html#weather-app">
+          <a href="">
             <button class="project-button-1 d-none d-xl-block">Go to project</button>
           </a>
         </div>
@@ -130,7 +102,8 @@
     </div>
 
 
-<div class="third-container">
+
+   <div class="third-container">
   <div class="row">
     <div class="col-sm-6">
       <img src="/images/to-do.png"  class="img-fluid to-do-image" alt="">
@@ -140,10 +113,10 @@
 
 
 
-    <div class="col-sm-6 third-column">
+    <div class="col-sm-6 third-column" id="to-do-list">
       <h1 class=" third-home-subheading mt-5">To-do List</h1>
       <p class="to-do-app-paragraph">A To-Do List to help one organise and manage all the things that they have to do in one go. Used basic HTML5 for the structure of the page, CSS3 for the styling, JavaScript for functionality and Bootsrap for responsiveness, ensuring that it looks good on all types of devices. The app allows you insert, mark as read and delete tasks.</p>
-      <a href="/work.html#to-do-list">
+      <a href="">
             <button class="project-button-1 d-none d-xl-block">Go to project</button>
           </a>
 
@@ -157,16 +130,14 @@
   </div>
 </div>
 
-
-
-<div class="fourth-container">
+    <div class="fourth-container " id="apple-landing-page">
   <div class="row">
 
    <div class="col-sm-6 fourth-column">
 
     <h1 class="fourth-home-subheading mt-5">Apple Landing Page </h1>
     <p class="apple-paragraph">This is a static landing page of Apple AirPods Max. This is inclusive of HTML5 for the basic structururing and the layout of the page, CSS3 for the styling of the webpage, and Bootsrap for its responsiveness on all devices. This gives you a luxurious feeling of what it is like to own one of those.</p>
-    <a href="/work.html#apple-landing-page">
+    <a href="">
       <button class="project-button-1 d-none d-xl-block">Go to project</button>
     </a>
    </div>
@@ -186,6 +157,32 @@
   </div>
 </div>
 
+        
 
-  </body>
-</html>
+
+
+      </div>
+
+  </div>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    </html>
