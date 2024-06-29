@@ -214,6 +214,19 @@ a {
   color: rgb(231, 130, 147);
 }
 
+.proficiency-divider {
+  background-color: var(--secondary-color);
+  color: gray;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 150px;
+  padding-top: 5px;
+  text-align: center;
+  height: 30px;
+  box-shadow: 2px 2px #efdade;
+}
+
 
 
 
@@ -357,6 +370,10 @@ margin-left: 30px;
 }
 
 
+.proficiency-divider {
+  margin-left: 130px;
+}
+
 
 
 
@@ -461,7 +478,14 @@ margin-left: 30px;
 }
 
 
-
+.proficiency-divider {
+  
+  width: 90px;
+  height: 40px;
+  font-size: 13px;
+  margin-left: 30px;
+ 
+}
 
 
 
@@ -533,6 +557,17 @@ margin-left: 30px;
   margin-left: 5px;
   font-size: 15px;
 }
+
+.proficiency-divider {
+  
+  width: 120px;
+  height: 60px;
+  font-size: 18px;
+  margin-left: 20px;
+ 
+}
+
+
 
 
 }
