@@ -138,13 +138,25 @@ a {
   margin: 5px;
 }
 
-.intro-button:hover, .project-button-1:hover {
+.intro-button:hover, .project-button-1:hover, .project-home-link:hover {
   background-color: #da9aa7;
   color: white;
   padding: 10px;
   box-shadow: 2px 2px #efdade;
 }
 
+
+.project-home-link {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-left: 150px;  
+  margin-bottom: 20px;
+  background-color: var(--secondary-color);
+  color: gray;
+  font-size: 15px;
+ 
+}
 
 
 .project-button-1 {
@@ -178,10 +190,13 @@ a {
   color: gray; 
 }
 
-
+.work-image {
+  margin-top: 20px;
+}
 
 .weather-app-img {
   margin-left: -10px;
+
 }
 
 .third-home-subheading {
