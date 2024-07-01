@@ -45,7 +45,7 @@ a {
 .main-container,
 .second-container ,
 .third-container,
-.fourth-container {
+.fourth-container, .footer-wrapper {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -247,8 +247,50 @@ a {
 }
 
 
+footer .contact-box {
+  background-color: rgba(243, 208, 215, 0.5);
+  padding: 20px;
+  height: 110px;
+  border-radius: 30px;
+}
+
+ footer .email-link {
+  color: black;
+  font-size: 22px;
+  display: block;
+}
+
+footer .email-link:hover {
+  color: pink;
+  
+}
 
 
+footer .footer-container {
+  margin-top: 170px ;
+  margin-bottom: 50px;
+  
+}
+
+
+
+
+footer .social-links a {
+  margin: 10px;
+  font-size: 12px;
+  background-color:rgb(249, 214, 220);
+  color: #f05d7a;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+ 
+  color:rgb(249, 214, 220);
+  background-color: #f05d7a;
+  
+}
 
 
 
@@ -259,6 +301,31 @@ a {
 
 
 @media (max-width: 600px) {
+
+
+
+  .main-container,
+.second-container ,
+.third-container,
+.fourth-container, .footer-wrapper {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+footer .contact-box {
+height: 150px;
+margin-top: -80px;
+  margin-left: -30px;
+ 
+}
+
+.footer-work-inquiry {
+  font-size: 20px;
+  
+}
+
+
   .introduction-header {
     font-size: 20px;
 
@@ -408,6 +475,11 @@ margin-left: 30px;
   margin: 50px 0px;
 }
 
+
+
+
+
+ 
 
 }
 
