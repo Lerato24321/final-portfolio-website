@@ -292,6 +292,14 @@ footer .social-links a:hover {
   
 }
 
+.main-container .contact-divider {
+  margin-top: 200px;
+  border-radius: 20px;
+  width: 50px;
+  height: 250px;
+  background-color: pink;
+}
+
 
 
 
@@ -479,7 +487,10 @@ margin-left: 30px;
 }
 
 
-
+.main-container h1 {
+  font-size: 40px;
+  margin: 0px;
+}
 
 
  
