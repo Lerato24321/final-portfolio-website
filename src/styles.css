@@ -289,6 +289,9 @@ footer .social-links a:hover {
     overflow-x: hidden;
   }
 
+  
+
+
   footer .contact-box {
     height: 150px;
     margin-top: -80px;
@@ -312,8 +315,8 @@ footer .social-links a:hover {
     margin-left: -80px;
   }
 
-  .name-title {
-    margin-left: 90px;
+  .personal-heading .name-title {
+    margin-left: 80px;
   }
 
   .intro-paragraph {
@@ -518,7 +521,8 @@ footer .social-links a:hover {
   }
 
   .project-home-link {
-    margin-left: 60px;
+    font-size: 12px;
+    margin-left: 30px;
   }
 }
 
@@ -569,4 +573,10 @@ footer .social-links a:hover {
     font-size: 18px;
     margin-left: 20px;
   }
+
+    .project-home-link {
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  
 }
