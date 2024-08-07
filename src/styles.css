@@ -345,6 +345,7 @@ footer .social-links a:hover {
 
   .second-home-description {
     font-size: 30px;
+    
   }
 
   .weather-app-paragraph,
@@ -354,7 +355,8 @@ footer .social-links a:hover {
   }
 
   .second-home-subheading {
-    margin-left: 30px;
+    font-size: 30px;
+    margin-left: 50px;
     margin-top: -50px;
   }
 
