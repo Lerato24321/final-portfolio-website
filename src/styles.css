@@ -15,7 +15,6 @@
   --primary-color: #f6f5f2;
   --secondary-color: #ffefef;
   --text-color: #808080;
-  
 }
 
 body {
@@ -31,9 +30,6 @@ h6 {
   font-family: Freeman, sans-serif;
 }
 
-
-
-
 h2 {
   color: pink;
 }
@@ -43,19 +39,23 @@ a {
 }
 
 .main-container,
-.second-container ,
+.second-container,
 .third-container,
-.fourth-container, .footer-wrapper {
+.fourth-container,
+.footer-wrapper {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-.to-do-app-paragraph, .weather-app-paragraph, .about-me-paragraph {
+.to-do-app-paragraph,
+.weather-app-paragraph,
+.about-me-paragraph {
   color: rgb(128, 128, 128);
 }
 
-
-.third-home-subheading, .second-home-subheading, .fourth-home-subheading {
+.third-home-subheading,
+.second-home-subheading,
+.fourth-home-subheading {
   font-weight: bold;
   font-size: 50px;
   color: #f3d0d7;
@@ -65,15 +65,14 @@ a {
   color: gray;
 }
 
-
-.name-title, .name-title-2 {
+.name-title,
+.name-title-2 {
   margin-left: -30px;
   font-weight: bold;
   font-size: 70px;
   color: #f3d0d7;
   text-shadow: 2px 2px #da9aa7;
 }
-
 
 .name-title-2 {
   padding-top: 150px;
@@ -84,8 +83,6 @@ a {
   margin-right: 100px;
   margin-left: -40px;
 }
-
-
 
 .introduction-header {
   font-family: "Literata", serif;
@@ -100,16 +97,16 @@ a {
   color: var(--text-color);
 }
 
-.personal-photo, .personal-photo-2 {
+.personal-photo,
+.personal-photo-2 {
   margin-left: 80px;
   margin-top: -100px;
 }
 
-
 .personal-photo-2 {
-     background-color: #da9aa7;
-     background-size: 75% 50%;
-     border-radius: 10% 30% 50% 70%;
+  background-color: #da9aa7;
+  background-size: 75% 50%;
+  border-radius: 10% 30% 50% 70%;
 }
 
 .nav-logo {
@@ -122,8 +119,6 @@ a {
   background-color: rgba(243, 208, 215, 0.5);
   color: rgb(24, 19, 19);
 }
-
-
 
 .btns {
   margin-left: 30px;
@@ -138,29 +133,28 @@ a {
   margin: 5px;
 }
 
-.intro-button:hover, .project-button-1:hover, .project-home-link:hover {
+.intro-button:hover,
+.project-button-1:hover,
+.project-home-link:hover {
   background-color: #da9aa7;
   color: white;
   padding: 10px;
   box-shadow: 2px 2px #efdade;
 }
 
-
 .project-home-link {
   padding: 10px;
   border: 1px solid gray;
   border-radius: 4px;
-  margin-left: 150px;  
+  margin-left: 100px;
   margin-bottom: 20px;
   background-color: var(--secondary-color);
   color: gray;
   font-size: 15px;
- 
 }
 
-
 .project-button-1 {
-   background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
   padding: 10px;
   box-shadow: 2px 2px #da9aa7;
   border: none;
@@ -174,20 +168,18 @@ a {
   margin-left: 130px;
 }
 
-
-
 .first-weather-project {
   margin-top: 20px;
 }
 
-.second-home-subheading, .fourth-home-subheading {
+.second-home-subheading,
+.fourth-home-subheading {
   margin-left: 150px;
 }
 
-
 .weather-app-paragraph {
   margin-left: 150px;
-  color: gray; 
+  color: gray;
 }
 
 .work-image {
@@ -196,13 +188,11 @@ a {
 
 .weather-app-img {
   margin-left: -10px;
-
 }
 
 .third-home-subheading {
   text-align: center;
 }
-
 
 .third-column {
   margin-left: -50px;
@@ -212,21 +202,19 @@ a {
   margin-left: 40px;
 }
 
-
 .third-container {
   margin-top: 20px;
 }
 
 .apple-paragraph {
   margin-left: 150px;
-  color: gray; 
+  color: gray;
 }
 
 .apple-phone {
   width: 400px;
   margin-top: -380px;
   margin-left: 240px;
-
 }
 
 .active {
@@ -246,7 +234,6 @@ a {
   box-shadow: 2px 2px #efdade;
 }
 
-
 footer .contact-box {
   background-color: rgba(243, 208, 215, 0.5);
   padding: 20px;
@@ -254,7 +241,7 @@ footer .contact-box {
   border-radius: 30px;
 }
 
- footer .email-link {
+footer .email-link {
   color: black;
   font-size: 22px;
   display: block;
@@ -262,23 +249,17 @@ footer .contact-box {
 
 footer .email-link:hover {
   color: pink;
-  
 }
-
 
 footer .footer-container {
-  margin-top: 170px ;
+  margin-top: 170px;
   margin-bottom: 50px;
-  
 }
-
-
-
 
 footer .social-links a {
   margin: 10px;
   font-size: 12px;
-  background-color:rgb(249, 214, 220);
+  background-color: rgb(249, 214, 220);
   color: #f05d7a;
   padding: 10px;
   border-radius: 50%;
@@ -286,10 +267,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
- 
-  color:rgb(249, 214, 220);
+  color: rgb(249, 214, 220);
   background-color: #f05d7a;
-  
 }
 
 .main-container .contact-divider {
@@ -300,42 +279,26 @@ footer .social-links a:hover {
   background-color: pink;
 }
 
-
-
-
-
-
-
-
-
 @media (max-width: 600px) {
-
-
-
   .main-container,
-.second-container ,
-.third-container,
-.fourth-container, .footer-wrapper {
-  max-width: 100%;
-  overflow-x: hidden;
-}
+  .second-container,
+  .third-container,
+  .fourth-container,
+  .footer-wrapper {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
+  footer .contact-box {
+    height: 150px;
+    margin-top: -80px;
+    margin-left: 2px;
+  }
 
-footer .contact-box {
-height: 150px;
-margin-top: -80px;
-margin-left: 2px;
- 
-}
-
-
-
-.footer-work-inquiry {
-  font-size: 20px;
-  text-align: center;
-  
-}
-
+  .footer-work-inquiry {
+    font-size: 20px;
+    text-align: center;
+  }
 
   .introduction-header {
     font-size: 20px;
@@ -343,8 +306,6 @@ margin-left: 2px;
     margin-top: 65px;
     margin-left: 80px;
   }
-
-  
 
   .introductory-heading {
     font-size: 35px;
@@ -378,147 +339,107 @@ margin-left: 2px;
     display: block;
     margin: 14px;
   }
-  
 
+  .second-home-description {
+    font-size: 30px;
+  }
 
-.second-home-description {
-  font-size: 30px;
-}
+  .weather-app-paragraph,
+  .apple-paragraph {
+    margin-left: 30px;
+    font-size: 12px;
+  }
 
+  .second-home-subheading {
+    margin-left: 30px;
+    margin-top: -50px;
+  }
 
+  .second-home-description {
+    font-size: 24px;
+    margin-bottom: -30px;
+  }
 
-.weather-app-paragraph, .apple-paragraph{
-  margin-left: 30px;
-  font-size: 12px;
-}
+  .second-home-subheading {
+    font-size: 25px;
+  }
 
-.second-home-subheading {
-  margin-left: 30px;
-  margin-top: -50px;
-}
+  .weather-app-img,
+  .apple-desktop {
+    width: 200px;
+    margin-top: -270px !important;
+    margin-left: 180px;
+  }
 
-.second-home-description {
-  font-size: 24px;
-  margin-bottom: -30px;
-}
+  .to-do-app-paragraph {
+    font-size: 12px;
+  }
 
-.second-home-subheading  {
-  font-size: 25px;
-}
+  .third-home-subheading {
+    font-size: 28px;
+    margin-right: 60px;
+  }
 
+  .to-do-image {
+    width: 200px;
+    margin-left: 10px;
+    padding-top: 80px;
+  }
 
+  .third-column {
+    margin-left: 100px;
+    margin-top: -230px;
+  }
 
-.weather-app-img, .apple-desktop {
-  width: 200px;
-  margin-top: -270px !important;
-  margin-left: 180px;
-}
+  .fourth-home-subheading {
+    font-size: 28px;
+    margin-left: 30px;
+  }
 
-.to-do-app-paragraph {
-  font-size: 12px;
-}
+  .apple-phone {
+    width: 120px;
+    margin-top: -315px;
+    margin-left: 270px;
+  }
 
-.third-home-subheading {
-  font-size: 28px;
-  margin-right: 60px;
-}
+  .about-me-paragraph,
+  .about-button {
+    margin-left: 130px;
+    width: 100%;
+  }
 
-.to-do-image {
-  width: 200px;
-  margin-left: 10px;
-  padding-top: 80px;
-}
+  .name-title-2 {
+    font-size: 60px;
+    margin-left: 130px;
+    margin-top: -120px;
+  }
 
+  .proficiency-divider {
+    margin-left: 130px;
+  }
 
-.third-column {
-  margin-left: 100px;
-  margin-top: -230px;
-}
+  .work-header {
+    font-size: 20px;
+    margin-right: 130px;
+  }
 
-
-
-.fourth-home-subheading {
-font-size: 28px;
-margin-left: 30px;
-}
-
-
-
-.apple-phone {
-  width: 120px;
-  margin-top: -315px;
-  margin-left: 270px;
-
-}
-
-
-
-.about-me-paragraph, .about-button {
-  margin-left: 130px;
-  width: 100%;
-  
-}
-
-
-.name-title-2 {
-  font-size: 60px;
-  margin-left: 130px;
-  margin-top: -120px;
-}
-
-
-.proficiency-divider {
-  margin-left: 130px;
-}
-
-
-.work-header {
-  font-size: 20px;
-  margin-right: 130px;
-}
-
-.projects-header  {
-  font-size: 55px;
-  margin-left: 10px;
-}
-
-.project-summary {
-  margin: 50px 0px;
-}
-
-
-.main-container h1 {
-  font-size: 40px;
-  margin: 0px;
-}
-
+  .projects-header {
+    font-size: 55px;
+    margin-left: 10px;
+  }
 
  
 
+  .main-container h1 {
+    font-size: 40px;
+    margin: 0px;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) and (max-width: 915px) {
-
   .introduction-header {
     margin-top: 250px;
   }
-
-
 
   .personal-heading {
     margin-top: -70px;
@@ -538,92 +459,70 @@ margin-left: 30px;
     margin-left: 20px;
   }
 
-
   .second-home-subheading {
     margin-left: 150px;
     font-size: 28px;
   }
 
+  .weather-app-img,
+  .apple-desktop {
+    padding-top: 100px;
+  }
 
-.weather-app-img, .apple-desktop {
-  padding-top: 100px;
+  .to-do-image {
+    margin-top: 30px;
+  }
+
+  .third-home-subheading,
+  .fourth-home-subheading {
+    font-size: 28px;
+  }
+
+  .third-column {
+    margin-left: -20px;
+    margin-top: -35px;
+  }
+
+  .apple-phone {
+    width: 230px;
+    margin-top: -240px;
+    margin-left: 160px;
+  }
+
+  .personal-photo-2 {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
+  .about-first-column {
+    margin-top: -60px;
+  }
+
+  .name-title-2 {
+    font-size: 50px;
+    margin-left: -4px;
+  }
+
+  .about-me-paragraph,
+  .about-button {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+  .proficiency-divider {
+    width: 90px;
+    height: 40px;
+    font-size: 13px;
+    margin-left: 30px;
+  }
+
+  .project-home-link {
+    margin-left: 60px;
+  }
 }
-
-.to-do-image {
-  margin-top: 30px;
-}
-
-
-
-.third-home-subheading, .fourth-home-subheading {
-  
-  font-size: 28px;
-}
-
-
-.third-column {
-  margin-left: -20px;
-  margin-top: -35px;
-}
-
-.apple-phone {
-  width: 230px;
-  margin-top: -240px;
-  margin-left: 160px;
-
-}
-
-
-.personal-photo-2 {
-  width: 300px;
-  margin-top: 30px;
-  margin-left: 40px;
-}
-
-
-.about-first-column {
-  margin-top: -60px;
-}
-
-.name-title-2 {
-  font-size: 50px;
- margin-left: -4px;
-}
-
-.about-me-paragraph, .about-button {
-  margin-left: 5px;
-  font-size: 15px;
-}
-
-
-.proficiency-divider {
-  
-  width: 90px;
-  height: 40px;
-  font-size: 13px;
-  margin-left: 30px;
- 
-}
-
-
-.project-home-link {
-  margin-left: 60px;
-}
-
-
-}
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 853px) and (max-width: 1024px) {
-
   .second-home-description {
     margin-bottom: -30px;
   }
@@ -632,62 +531,42 @@ margin-left: 30px;
     margin-left: 150px;
   }
 
+  .weather-app-img,
+  .apple-desktop {
+    padding-top: 50px;
+  }
 
+  .third-column,
+  .fourth-column {
+    margin-top: -30px;
+  }
 
+  .apple-phone {
+    width: 300px;
+    margin-top: -310px;
+    margin-left: 180px;
+  }
 
-  .weather-app-img, .apple-desktop {
-  padding-top: 50px;
-}
+  .about-first-column {
+    margin-top: -60px;
+    padding-left: 70px;
+  }
 
+  .name-title-2 {
+    font-size: 50px;
+    margin-left: -4px;
+  }
 
+  .about-me-paragraph,
+  .about-button {
+    margin-left: 5px;
+    font-size: 15px;
+  }
 
-
-.third-column, .fourth-column {
-  margin-top: -30px;
-}
-
-
-
-.apple-phone {
-  width: 300px;
-  margin-top: -310px;
-  margin-left: 180px;
-
-}
-
-
-
-.about-first-column {
-  margin-top: -60px;
-  padding-left: 70px;
-}
-
-
-.name-title-2 {
-  font-size: 50px;
- margin-left: -4px;
-}
-
-
-
-
-
-
-.about-me-paragraph, .about-button {
-  margin-left: 5px;
-  font-size: 15px;
-}
-
-.proficiency-divider {
-  
-  width: 120px;
-  height: 60px;
-  font-size: 18px;
-  margin-left: 20px;
- 
-}
-
-
-
-
+  .proficiency-divider {
+    width: 120px;
+    height: 60px;
+    font-size: 18px;
+    margin-left: 20px;
+  }
 }
